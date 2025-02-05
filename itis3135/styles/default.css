@@ -18,9 +18,9 @@ a {
 }
 
 main {
-    tex-align: left;
-    margin-left: 20%;
-   margin-right: 20%;
+    text-align: start;
+    margin-inline-start: 20%;
+   margin-inline-end: 20%;
 }
 
 footer {
@@ -43,5 +43,4 @@ img {
 
 figure {
     text-align: center;
-    italic: none;
 }
