@@ -1,0 +1,47 @@
+body {
+    background-color:lightgrey;
+    text-align: center;
+    color:rgba(43, 84, 60, 0.934);
+    font-family:  Helvetica;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color:rgba(116, 64, 100, 0.934);
+    text-decoration:none;
+}
+
+.hover {
+    color:rgba(255, 251, 254, 0.934);
+}
+
+main {
+    tex-align: left;
+    margin-left: 20%;
+   margin-right: 20%;
+}
+
+footer {
+    background-color: #1a1924;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: .5em;
+    inset-block-end: 0;
+    inline-size: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    inline-size: 100%;
+}
+
+figure {
+    text-align: center;
+    italic: none;
+}
