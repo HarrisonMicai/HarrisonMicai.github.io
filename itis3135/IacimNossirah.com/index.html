@@ -4,14 +4,134 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HARRISON DESIGN PAGE</title>
+     <!--https://coolors.co/afd5aa-f0f2ef-5c5346-a69f98-8c6057-->
         <style>
+        
+            figure {
+                text-align: center;
+            }
+
+    
+            /* General Styles */
             body {
-                background-color: brown;
-                color:darksalmon;
+                background-color: #8C6057;
+                color: #F0F2EF;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+
+            /* Header */
+            header {
+                background-color: #5C5346;
+                text-align: center;
+                padding: 20px;
+                border-block-end: 5px solid #AFD5AA;
+            }
+
+            header h1 {
+                margin: 0;
+                color: #AFD5AA;
+                font-size: 2.5em;
+            }
+
+            header p {
+                font-style: italic;
+                font-size: 1.2em;
+                color: #F0F2EF;
+            }
+
+            /* Logo */
+            figure {
+                margin: 20px 0;
+            }
+
+            img {
+                inline-size: 150px;
+                border-radius: 50%;
+                border: 3px solid #A69F98;
+            }
+
+            /* Main Content */
+            main {
+                padding: 20px;
+            }
+
+            main h2 {
+                font-size: 2em;
+                color: #AFD5AA;
+            }
+
+            main p {
+                font-size: 1.1em;
+                line-height: 1.6;
+                max-inline-size: 700px;
+                margin: 0 auto;
+            }
+
+            /* List with custom bullets */
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            ul li {
+                background: #5C5346;
+                color: #F0F2EF;
+                display: inline-block;
+                padding: 10px 15px;
+                margin: 5px;
+                border-radius: 20px;
+                font-size: 1.1em;
+            }
+
+            /* Contact Section */
+            .contact {
+                margin-block-start: 30px;
+                background: #5C5346;
+                padding: 15px;
+                border-radius: 10px;
+                display: inline-block;
+                color: #F0F2EF;
+            }
+
+            /* Footer */
+            footer {
+                margin-block-start: 40px;
+                padding: 15px;
+                background-color: #5C5346;
+                color: #F0F2EF;
+                border-block-start: 5px solid #AFD5AA;
             }
         </style>
     </head>
     <body>
-        <p>This is the design page of Harrison Firm</p>
+        <header>
+            <h1>Iacim Nossirah</h1>
+            <figure>
+                <img src="images/47.logo.JPEG" alt="47 logo">
+            </figure>
+        </header>
+        <main>
+            <h2>Harrison Firm</h2>
+            <p>Where artists are free to express themselves  and share their work with other creatives on the platform. Our mission is for freelance work to be collaborative and profitable, as groups can work on piecesv together, which can later be put up for sale in the art store provided by Harrison Firm.</p>
+            <ul>
+                <li>Design</li>
+                <li>Awesome Artwork</li>
+                <li>Collaboration</li>
+                <li>Profit</li>
+                <li>Create Art</li>
+            </ul>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@harrisonfirm.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Creative Lane, Art City, AC 12345</p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2021 Harrison Firm</p>
+        </footer>
     </body>
 </html>
