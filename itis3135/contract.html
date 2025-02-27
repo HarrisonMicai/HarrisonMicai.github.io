@@ -9,14 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Micai Harrison's Mean Turtle ~ ITIS3135 Contract</h1>
-        <nav>
-            
-                <a href="home.html">Home</a> *
-                <a href="introduction.html">Introduction</a> *
-                <a href="contract.html">Contract</a> *
-                <a href="MeanTurtle.com/index.html">Brand</a>
-        </nav>
+        <div data-include="components/header.html"></div>
     </header>
     <main>
         <h2>Contract</h2>
@@ -29,28 +22,13 @@
             I also understand that given the structure and content of this class it’s possible to find many examples online or even view my classmates’ code directly. I swear that I will only use these resources to learn, and will not cut and paste code except where I have properly given credit (i.e. external libraries) and never from my classmates.
             <i>Signed: Micai D. Harrison, 02/05/2025</i></p>
     </main>
-    <footer>
-        <nav>
-            <a href="https://github.com/HarrisonMicai">Github.com</a> *
-            <a href="https://webpages.charlotte.edu/mharr234/">CLT web</a> *
-            <a href="https://harrisonmicai.github.io/">Github.io</a> *
-            <a href="https://www.freecodecamp.org/HarrisonMicai">FreeCodeCamp</a> *
-            <a href="https://www.codecademy.com/profiles/HarrisonMicai47">CodeAcamdemy</a> *
-            <a href="https://www.linkedin.com/in/micai-harrison-247115252/">LinkedIn</a> *
-            <a href="IacimNossirah.com/">Firm</a>
-        </nav>
-        <p>Page built by <a href="IacimNossirah.com/">Harrison Firm</a>&copy; 2025</p>
-
-        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-           </a>
-           <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-             </a>
-    </footer>
-    <script>
-        documents.getElementById("validate_link_html").style.display = "none";
-        documents.getElementById("validate_link_css").style.display = "none";
-    </script>
+        <footer>
+            <div data-include="components/footer.html"></div>
+        </footer>
+        <script>
+            documents.getElementById("validate_link_html").style.display = "none";
+            documents.getElementById("validate_link_css").style.display = "none";
+        </script>
+        <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>

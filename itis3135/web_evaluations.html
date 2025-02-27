@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Evaluation</title>
+    <title>ITIS3135 Website Evaluations || Micai Harrison || Mean Turtle</title>
     <link rel="stylesheet" href="styles/default.css">
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Micai Harrison | ITIS3135</h1>
+        <div data-include="components/header.html"></div>
     </header>
     <main>
         <h2>Website Evaluations</h2>
@@ -38,23 +38,12 @@
         </section>
     </main>
     <footer>
-        <nav>
-            <a href="https://github.com/HarrisonMicai">Github.com</a> *
-            <a href="https://webpages.charlotte.edu/mharr234/">CLT web</a> *
-            <a href="https://harrisonmicai.github.io/">Github.io</a> *
-            <a href="https://www.freecodecamp.org/HarrisonMicai">FreeCodeCamp</a> *
-            <a href="https://www.codecademy.com/profiles/HarrisonMicai47">CodeAcamdemy</a> *
-            <a href="https://www.linkedin.com/in/micai-harrison-247115252/">LinkedIn</a> *
-            <a href="IacimNossirah.com/">Firm</a> 
-        </nav>
-        <p>Page built by <a href="IacimNossirah.com/">Harrison Firm</a>&copy; 2025</p>
-        <p>Certified in <a href="https://www.freecodecamp.org/certification/HarrisonMicai/responsive-web-design0">Responsive</a> Web Design</p>
-        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-           </a>
-           <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-             </a>
+        <div data-include="components/footer.html"></div>
     </footer>
+    <script>
+        documents.getElementById("validate_link_html").style.display = "none";
+        documents.getElementById("validate_link_css").style.display = "none";
+    </script>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
