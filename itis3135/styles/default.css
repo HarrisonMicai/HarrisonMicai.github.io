@@ -1,8 +1,9 @@
+/* General Styles */
 body {
     background-color: lightgrey;
     text-align: center;
     color: rgba(43, 84, 60, 0.934);
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
     font-size: 20px;
     padding: 0;
     margin: 0;
@@ -10,35 +11,32 @@ body {
 
 /* Default link styling */
 a {
-    color: rgba(116, 64, 100, 0.934); /* Custom color for links */
+    color: rgba(116, 64, 100, 0.934);
     text-decoration: none;
 }
 
-/* Unvisited links */
-a:link {
-    color: rgba(116, 64, 100, 0.934);
-}
-
-/* Visited links */
 a:visited {
-    color: rgba(80, 40, 70, 0.934); /* Slightly darker shade for visited links */
+    color: rgba(80, 40, 70, 0.934);
 }
 
-/* Hover effect */
 a:hover {
     color: rgba(255, 251, 254, 0.934);
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline;
 }
 
-/* Active (clicked) links */
 a:active {
     color: rgba(200, 50, 100, 0.934);
 }
 
+/* Main content styling */
 main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: start;
-    margin-inline-start: 20%;
-    margin-inline-end: 20%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 footer {
@@ -46,9 +44,9 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: .5em;
-    inset-block-end: 0;
-    inline-size: 100%;
+    padding: 0.5em;
+    position: relative;
+    width: 100%;
 }
 
 h2 {
@@ -56,15 +54,38 @@ h2 {
 }
 
 img {
-    max-inline-size: 100%;
-    block-size: auto;
+    max-width: 100%;
+    height: auto;
 }
-
 
 figure {
     text-align: center;
 }
 
 p {
-    text-align:center
+    text-align: center;
+}
+
+/* Responsive Design */
+
+/* Large Screens (Desktops) */
+@media screen and (min-width: 981px) and (max-width: 1400px) {
+    main {
+        width: 85%;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media screen and (min-width: 601px) and (max-width: 980px) {
+    main {
+        width: 95%;
+    }
+}
+
+/* Small Screens (Mobile Devices) */
+@media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+        padding: 10px;
+    }
 }
