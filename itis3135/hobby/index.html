@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drawing Index Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+           body {
+            font-family: Helvectica, sans-serif;
+            background-color: #367807;
+            color: #3b2f2f;
+            text-align: center;
+        }
+        header {
+            background-color: #3e6c73ef;
+            padding: 20px;
+            color: white;
+        }
+        nav {
+            font-family: Helvetica, sans-serif;
+            margin: 20px 0;
+        }
+        nav a {
+            padding: 10px;
+            margin: 5px;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        section {
+            display: none;
+            padding: 20px;
+        }
+        section.active {
+            display: block;
+        }
+        footer {
+            margin-block-start: 20px;
+            padding: 10px;
+            background-color: #3e6c73ef;
+            color: white;
+        }
+        .resize {
+            width: 80%;
+            height: 80%;
+        }
+        </style>
+</head>
+    <body>
+        <header>
+            <h1>Micai's Hobby * Drawing®</h1>
+            <nav>
+                <button onclick="showSection('home')">Home</button> *
+                <button onclick="showSection('who')">About</button> *
+                <button onclick="showSection('when')">Good Times</button> *
+                <button onclick="showSection('where')">Locations</button> *
+                <button onclick="showSection('how')">How</button> *
+                <button onclick="showSection('why')">Why</button>
+            </nav>
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        </header>
+        <main>
+            <section id="home" class="active">
+                <h2>What is Drawing?</h2>
+                <p>Drawing is the outward expression of the minds creativity through means of illustration and digital media.</p>
+                <figure>
+                    <img class="resize" src="images/realism.jpeg" alt="Realism Drawing">
+                    <figcaption><i>A nice realism sketch by yours truly.</i></figcaption>
+                </figure>
+            </section>
+            <section id="who">
+                <h2>About my Drawings</h2>
+                <p>Drawing has been a hobby of mine since the age of 6 years old. My uncle introduced me to the process of drawing an illustration, which grew my love for art overall.</p>
+                <figure>
+                    <img class="resize" src="images/youth.jpeg" alt="Younger Drawing">
+                    <figcaption><i>Art from my youth.</i></figcaption>
+                </figure>
+            </section>
+            <section id="when">
+                <h2>When do I Draw?</h2>
+                <p>My creative juices begin to flow mostly in midst of the night. Late night drawings are always the best times for me produce my best work.</p>
+                <figure>
+                    <img class="resize" src="images/night.jpeg" alt="Night Drawing">
+                    <figcaption>Art from the night.</figcaption>
+                </figure>
+            </section>
+            <section id="where">
+                <h2>Where to Draw?</h2>
+                <p>You can draw anywhere! From your home to nature, inspiration is everywhere.</p>
+                <figure>
+                    <img class="resize" src="images/nature.jpeg" alt="Nature Drawing">
+                    <figcaption>Art from nature.</figcaption>
+                </figure>
+            </section>
+            <section id="how">
+                <h2>How to Draw?</h2>
+                <p>Start with basic shapes and practice shading for depth and realism.</p>
+                <figure>
+                    <img class="resize" src="images/shapes.jpeg" alt="Shapes Drawing">
+                    <figcaption>Art from shapes.</figcaption>
+                </figure>
+            </section>
+            <section id="why">
+                <h2>Why Draw?</h2>
+                <p>Drawing is a form of self-expression, stress relief, and creativity.</p>
+                <figure>
+                    <img class="resize" src="images/relief.jpeg" alt="Relief Drawing">
+                    <figcaption>Art from relief.</figcaption>
+                </figure>
+            </section>
+            <section id="ai_prompts">
+                <h2>AI Prompts</h2>
+                <p>Prompts used to generate content for this page will be listed here.</p>
+            </section>
+        </main>
+        <footer>
+            <div data-include="components/footer.html"></div>
+        </footer>
+        <script>
+            documents.getElementById("validate_link_html").style.display = "none";
+            documents.getElementById("validate_link_css").style.display = "none";
+        </script>
+        <script src="scripts/HTMLInclude.min.js"></script>
+    </body>
+</html>
