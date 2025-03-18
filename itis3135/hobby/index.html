@@ -1,160 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Drawing Index Page</title>
-        <style>
-           body {
-            font-family: Helvectica, sans-serif;
-            background-color: #367807;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Hobby</title>
+    <link rel="icon" href="images/favicon.ico">
+    <style>
+        /* Embedded Stylesheet */
+        body {
+            background-color: #f4e1d2;
             color: #3b2f2f;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             text-align: center;
         }
         header {
-            background-color: #3e6c73ef;
-            padding: 20px;
-            color: white;
-        }
-        nav {
-            font-family: Helvetica, sans-serif;
-            margin: 20px 0;
+            background-color: #d4a373;
+            padding: 10px;
         }
         nav a {
-            padding: 10px;
-            margin: 5px;
-            color: rgb(126, 200, 133);
+            margin: 10px;
             text-decoration: none;
-            border-radius: 5px;
-            cursor: pointer;
+            color: white;
+            font-weight: bold;
         }
-        section {
+        main section {
             display: none;
             padding: 20px;
         }
-        .active {
+        main section.active {
             display: block;
         }
         footer {
-            margin-block-start: 20px;
+            background-color: #3b2f2f;
+            color: white;
             padding: 10px;
-            background-color: #3e6c73ef;
+        }
+        button {
+            background-color: #d4a373;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .image-container {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers the items horizontally */
+    gap: 20px; /* Adds spacing between images */
+    }
+    .resize {
+    width: 200px; /* Adjust size as needed */
+    height: auto; /* Maintains aspect ratio */
+    }
+    figure {
+    text-align: center; /* Centers caption under images */
+    }
+
+   /* Style for Table*/
+   table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #493333;
+        }
+        th {
+            background-color: #333;
             color: white;
         }
-        .resize {
-            width: 80%;
-            height: 80%;
+       
+        tr:hover {
+            background-color: #ddd;
+            color: black;
         }
-        </style>
-        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .row-anchor {
+            display: block;
+        }
+        .column-table {
+            flex: 1;
+            padding: 10px;
+            width: 50%;
+            
+        }
+        .container-table {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between; 
+        }
+        #producer-table {
+            width: 100%;
+        }
+
+    </style>
+    <script>
+        function showSection(id) {
+            document.querySelectorAll("section").forEach(section => section.classList.remove("active"));
+            document.getElementById(id).classList.add("active");
+        }
+        window.onload = function() {
+            showSection('what'); // Default visible section
+        }
+    </script>
+     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </head>
-    <body>
-        <header>
-            <h1>Micai's Hobby * Drawing®</h1>
-            <aside id="sidebar">
-                <button id="toggle-btn">☰</button>
-                <nav>
-                    <ul>
-                        <li><a href="#home" class="nav-link" data-target="home">Home *</a></li>
-                        <li><a href="#who" class="nav-link" data-target="who">About Me *</a></li>
-                        <li><a href="#when" class="nav-link" data-target="when">When to Produce * </a></li>
-                        <li><a href="#where" class="nav-link" data-target="where">Coolest Studios * </a></li>
-                        <li><a href="#how" class="nav-link" data-target="how">How to Draw *</a></li>
-                        <li><a href="#why" class="nav-link" data-target="why">Drawing is Awesome * </a></li>
-                        <li><a href="#ai_prompts" class="nav-link" data-target="ai_prompts">AI Prompts *  </a></li>
-                    </ul>
-                </nav>
-            </aside>
-        </header>
-        <main>
-            <section id="home" class="section">
-                <h2>What is Drawing?</h2>
-                <p>Drawing is the outward expression of the minds creativity through means of illustration and digital media.</p>
+<body>
+
+    <header>
+        <h1>Micai's Hobby * Drawing®</h1>
+        <nav>
+            <a href="#" onclick="showSection('who')">Who</a> |
+            <a href="#" onclick="showSection('what')">What</a> |
+            <a href="#" onclick="showSection('when')">When</a> |
+            <a href="#" onclick="showSection('where')">Where</a> |
+            <a href="#" onclick="showSection('how')">How</a> |
+            <a href="#" onclick="showSection('why')">Why</a> |
+            <a href="#" onclick="showSection('ai_prompts')">AI Prompts</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="who">
+            <h2>About my Drawings</h2>
+            <p>Drawing has been a hobby of mine since the age of 6 years old. My uncle introduced me to the process of drawing an illustration, which grew my love for art overall.</p>
+            <figure>
+                <img class="resize" src="images/youth.jpeg" alt="Younger Drawing">
+                <figcaption>"Artwork of Super Saiyan 4 Goku and Vegeta from my youth."</figcaption>
+            </figure>
+        </section>
+
+        <section id="what" class="active">
+            <h2>What is Drawing?</h2>
+            <p>Drawing is the outward expression of the mind's creativity through means of illustration and digital media.</p>
+            <figure>
+                <img class="resize" src="images/realism.jpeg" alt="Realism Drawing">
+                <figcaption>"A nice realism sketch by yours truly."</figcaption>
+            </figure>
+        </section>
+
+        <section id="when">
+            <h2>When do I Draw?</h2>
+            <p>My creative juices begin to flow mostly in the midst of the night. Late-night drawings are always the best times for me to produce my best work. During the night I have the feeling of freedom and no judgement, thus sparking my creative mindset to craft something new and cool.</p>
+            <div>
                 <figure>
-                    <img class="resize" src="images/realism.jpeg" alt="Realism Drawing">
-                    <figcaption><i>A nice realism sketch by yours truly.</i></figcaption>
+                    <img class="resize" src="images/night.jpg" alt="Night Light">
+                    <figcaption>"Picture of the peace of nightime."</figcaption>
                 </figure>
-            </section>
-            <section id="who" class="section">
-                <h2>About my Drawings</h2>
-                <p>Drawing has been a hobby of mine since the age of 6 years old. My uncle introduced me to the process of drawing an illustration, which grew my love for art overall.</p>
+            </div>
+            <div>
                 <figure>
-                    <img class="resize" src="images/youth.jpeg" alt="Younger Drawing">
-                    <figcaption><i>Art from my youth.</i></figcaption>
+                    <img class="resize" src="images/robo.jpeg" alt="Night Light">
+                    <figcaption>"A Drawing of Alien I drew at nighttime."</figcaption>
                 </figure>
-            </section>
-            <section id="when" class="section">
-                <h2>When do I Draw?</h2>
-                <p>My creative juices begin to flow mostly in midst of the night. Late night drawings are always the best times for me produce my best work.</p>
-                <figure>
-                    <img class="resize" src="images/night.jpeg" alt="Night Drawing">
-                    <figcaption>Art from the night.</figcaption>
-                </figure>
-            </section>
-            <section id="where"class="section">
-                <h2>Where to Draw?</h2>
-                <p>You can draw anywhere! From your home to nature, inspiration is everywhere.</p>
-                <figure>
-                    <img class="resize" src="images/nature.jpeg" alt="Nature Drawing">
-                    <figcaption>Art from nature.</figcaption>
-                </figure>
-            </section>
-            <section id="how" class="section">
-                <h2>How to Draw?</h2>
-                <p>Start with basic shapes and practice shading for depth and realism.</p>
-                <figure>
-                    <img class="resize" src="images/shapes.jpeg" alt="Shapes Drawing">
-                    <figcaption>Art from shapes.</figcaption>
-                </figure>
-            </section>
-            <section id="why" class="section">
-                <h2>Why Draw?</h2>
-                <p>Drawing is a form of self-expression, stress relief, and creativity.</p>
-                <figure>
-                    <img class="resize" src="images/relief.jpeg" alt="Relief Drawing">
-                    <figcaption>Art from relief.</figcaption>
-                </figure>
-            </section>
-            <section id="ai_prompts" class="section">
-                <h2>AI Prompts</h2>
-                <p>Prompts used to generate content for this page will be listed here.</p>
-            </section>
-        </main>
-        <script src="components/script.js"></script>
-        <script>
-            // Add an event listener to each row
-        //GENERATED BY CHATGPT
-            const rows = document.querySelectorAll('#producer-table tbody tr');
-            rows.forEach(row => {
-                row.addEventListener('click', () => {
-                    const url = row.getAttribute('data-url');
-                    window.open(url, '_blank'); // Open the link in a new tab
-                });
-            });
-        </script>
-        <footer>
-            <nav>
-                <a href="https://github.com/HarrisonMicai">Github.com</a> *
-                <a href="https://webpages.charlotte.edu/mharr234/">CLT web</a> *
-                <a href="https://harrisonmicai.github.io/">Github.io</a> *
-                <a href="https://www.freecodecamp.org/HarrisonMicai">FreeCodeCamp</a> *
-                <a href="https://www.codecademy.com/profiles/HarrisonMicai47">CodeAcamdemy</a> *
-                <a href="https://www.linkedin.com/in/micai-harrison-247115252/">LinkedIn</a> *
-                <a href="IacimNossirah.com/">Firm</a> 
-            </nav>
-            <p>Page built by <a href="IacimNossirah.com/">Harrison Firm</a>&copy; 2025</p>
-            <p>Certified in <a href="https://www.freecodecamp.org/certification/HarrisonMicai/responsive-web-design0">Responsive</a> Web Design</p>
-            <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-                <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-               </a>
-               <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-                 </a>
-        </footer>
-        <script>
-            documents.getElementById("validate_link_html").style.display = "none";
-            documents.getElementById("validate_link_css").style.display = "none";
-        </script>
-        <script src="scripts/HTMLInclude.min.js"></script>
-    </body>
+            </div>
+        </section>
+
+        <section id="where">
+            <h2>Where to Draw?</h2>
+            <p>You can draw anywhere! From your home to nature, inspiration is everywhere. My favorite place to draw is at desk. This gives me stability to place all of my art material a stable surface to draw on.</p>
+            <figure>
+                <img class="resize" src="images/oda.jpg" alt="Oda Drawing">
+                <figcaption>"Famous Mangaka Eichiro Oda at his desk illustrating One Piece."</figcaption>
+            </figure>
+            <p>Often great artist work around cluttered desks because only they are able to see their vision in the mess they make. A messy desk to me means that the artist is crafting a beautiful vision onto paper. Typically when my desk is cluttered my mind begins to focus on my main objective for my illustration.</p>
+        </section>
+
+        <section id="how">
+            <h2>How to Draw?</h2>
+            <p>Start with basic shapes such as circles and triangles and form them into the anatomy you want. From there add connect these shapes in drawing with lines to form the body being drawn. After connecting the shapes procede to add detail such as shading and specific details that you want. In my experience when drawing something you always want to use the process of "construction", meaning to break down complex ideas into simple forms or shapes. Also take into account proportions of items being drawn, create some kind of vanishing point on your page.</p>
+            <figure>
+                <img class="resize" src="images/jung.jpg" alt="Kim's Proportions">
+                <figcaption>Proportions of drawing.</figcaption>
+            </figure>
+        </section>
+
+        <section id="why">
+            <h2>Why do I Draw?</h2>
+            <p>My reason for drawing is based on my influence as a kid and my respect for the process of drawing as I continue to study and learn new techniques. Some of my biggest inspirations comes from artists such as the late Kim Jung Gi, Todd Mcfarlen, Takehiko Inoue, and the likes of Chase Conley. Becoming a student of the process has taught me a new respect for the craft overall, and a new found love for the process of drawing arises each time a draw something new.</p>
+            <div class="container-table">
+                <div class="column-table">
+                <table id="producer-table">
+                    <caption>4 of my Favorite Artists</caption>
+                    <thead>
+                        <tr>
+                            <th>Artist</th>
+                            <th>Notable Accomplishments</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://en.wikipedia.org/wiki/Akira_Toriyama">
+                            <td>Akira Toriyama</td>
+                            <td>
+                                - Inspiration to talented mangaka such as Eichiro Oda, Musashi Kishimoto, and Tite Kubo.<br>
+                                - Created the Dragon Ball Universe.<br>
+                                -Considered the father of Shonen Manga and the Big Three.
+                            </td>
+                        </tr>
+                        <tr data-url="https://en.wikipedia.org/wiki/Kim_Jung_Gi">
+                            <td>Kim Jung Ji</td>
+                            <td>
+                                - Known for almost perfect proportions when drawing.<br>
+                                - Ability to draw proportionately with the use of only memory.<br>
+                                - Worked at different art studios such as SuperAni.<br>
+                            </td>
+                        </tr>
+                        <tr data-url="https://www.imdb.com/name/nm0174765/">
+                            <td>Chase Conley</td>
+                            <td>
+                                - Seasonsed artist in the industry<br>
+                                - Worked on titles such as the Boondocks and Black Dynamite
+                            </td>
+                        </tr>
+                        <tr data-url="https://en.wikipedia.org/wiki/Takehiko_Inoue">
+                            <td>Takehiko Inoue</td>
+                            <td>
+                                - Known for his realism mangaka style<br>
+                                - Adamaent about lessons of stoicism in his literature<br>
+                                - Produced two best-selling manga titles: "Slam Dunk" and "Vagabond"
+                            </td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <div class="column-table">
+            <ul style="padding-left: 0; margin-top: 30px; list-style-type: none;">
+            <figure>
+                <img class="resize" src="images/hey.jpeg" alt="Why I Draw!">
+                <figcaption>"Art that explains my why. This is just so cool."</figcaption>
+            </figure>
+            <figure>
+                <img class="resize" src="images/eye.jpeg" alt="Why I Draw!">
+                <figcaption>"More of my inspired artwork."</figcaption>
+            </figure>
+        </section>
+
+        <section id="ai_prompts">
+            <h2>AI Prompts</h2>
+            <p>AI-generated images and prompts.</p>
+            <table class="ai-table">
+                <thead>
+                    <tr>
+                        <th>Prompt</th>
+                        <th>Purpose</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>"How would I go about making a table to list out names of artists and facts about them?"."</td>
+                        <td>To create a organized table of specific artists I took inspiration from.</td>
+                        <td>A layout of how the table could be formatted in my code.</td>
+                    </tr>
+                    <tr>
+                        <td>"Generate a good color scheme for my hobby page."</td>
+                        <td>To help me visualize a good looking page thats not an eyesore.</td>
+                        <td>Different tones of brown as the color scheme were made.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <figure>
+                <img class="resize" src="images/dragon.webp" alt="AI-generated art">
+                <figcaption><i>An AI-generated drawing.</i></figcaption>
+            </figure>
+            <p><em>Prompt: "Create a digital painting of an artist sketching in a sunny studio."</em></p>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="https://github.com/HarrisonMicai">Github.com</a> *
+            <a href="https://webpages.charlotte.edu/mharr234/">CLT web</a> *
+            <a href="https://harrisonmicai.github.io/">Github.io</a> *
+            <a href="https://www.freecodecamp.org/HarrisonMicai">FreeCodeCamp</a> *
+            <a href="https://www.codecademy.com/profiles/HarrisonMicai47">CodeAcademy</a> *
+            <a href="https://www.linkedin.com/in/micai-harrison-247115252/">LinkedIn</a> *
+            <a href="IacimNossirah.com/">Firm</a> 
+        </nav>
+        <p>Page built by <a href="IacimNossirah.com/">Harrison Firm</a>&copy; 2025</p>
+        <p>Certified in <a href="https://www.freecodecamp.org/certification/HarrisonMicai/responsive-web-design0">Responsive</a> Web Design</p>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+        </a>
+    </footer>
+
+    <script>
+        document.getElementById("validation_link_html").style.display = "none";
+        document.getElementById("validation_link_css").style.display = "none";
+    </script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+
+</body>
 </html>
