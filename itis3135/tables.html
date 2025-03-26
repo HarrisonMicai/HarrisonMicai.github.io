@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS3135 Employee Information || Micai Harrison || Mean Turtle</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        caption {
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>Employee Information</h2>
+        <h3>My Tabular Data</h3>
+        <ol>
+            <li>Iacim Nosirrah - inosirrah@gmail.com - 47</li>
+            <li>Morgan Freeman - mfreeman81@uncc.edu - 30</li>
+            <li>Billy Sanders - bsanders12@gmail.com - 1</li>
+            <li>Monet Claude - mclaude34@charlotte.edu - 24</li>
+            <li>Gabriel Iglesias - giglesias34@yahoo.com - 15</li>
+            <li>Mac Miller - mmiller@gmail.com - 21</li>
+            <li>Ray Condones - rcondones27@gmail.com - 7</li>
+        </ol>
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <td>Iacim Nosirrah</td>
+                <td>inosirrah@gmail.com</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td>Morgan Freeman</td>
+                <td>mfreeman81@uncc.edu</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Billy Sanders</td>
+                <td>bsanders12@gmail.com</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Monet Claude</td>
+                <td>mclaude34@charlotte.edu</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Gabriel Iglesias</td>
+                <td>giglesias34@yahoo.com</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Mac Miller</td>
+                <td>mmiller@gmail.com</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Ray Condones</td>
+                <td>rcondones27@gmail.com</td>
+                <td>7</td>
+            </tr>
+        </table>
+        <figure>
+            <figcaption>Employee Information</figcaption>
+            <table>
+                <tr>
+                    <th>Department</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                    <th>Monthly Salary</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Management</td>
+                    <td>Iacim Nosirrah</td>
+                    <td>inosirrah@gmail.com</td>
+                    <td>47</td>
+                    <td>$9,000</td>
+                </tr>
+                <tr>
+                    <td>Morgan Freeman</td>
+                    <td>mfreeman81@uncc.edu</td>
+                    <td>30</td>
+                    <td>$8,500</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Marketing</td>
+                    <td>Billy Sanders</td>
+                    <td>bsanders12@gmail.com</td>
+                    <td>1</td>
+                    <td>$3,200</td>
+                </tr>
+                <tr>
+                    <td>Monet Claude</td>
+                    <td>mclaude34@charlotte.edu</td>
+                    <td>24</td>
+                    <td>$6,700</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Sales</td>
+                    <td>Gabriel Iglesias</td>
+                    <td>giglesias34@yahoo.com</td>
+                    <td>15</td>
+                    <td>$5,500</td>
+                </tr>
+                <tr>
+                    <td>Mac Miller</td>
+                    <td>mmiller@gmail.com</td>
+                    <td>21</td>
+                    <td>$6,200</td>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td>Ray Condones</td>
+                    <td>rcondones27@gmail.com</td>
+                    <td>7</td>
+                    <td>$4,800</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Total Years of Service</th>
+                    <th>145</th>
+                    <th>$43,900</th>
+                </tr>
+            </table>
+        </figure>    
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script>
+        documents.getElementById("validate_link_html").style.display = "none";
+        documents.getElementById("validate_link_css").style.display = "none";
+    </script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>
