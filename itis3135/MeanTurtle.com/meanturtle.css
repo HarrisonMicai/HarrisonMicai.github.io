@@ -14,7 +14,7 @@ body {
 /* Header and Footer */
 header, footer {
     text-align: center;
-    background-color: #e0e0e0; /* Neutral gray */
+    background-color: #454040; /* Neutral gray */
     border-radius: 50px; /* Rounded corners */
     padding: 20px;
     margin-block-start: 20px;
@@ -25,12 +25,24 @@ h2 {
     text-align: center;
 }
 
-/* Header anchor */
-header a {
-    display: flex;
-    justify-content: center;
-    margin-block-start: 20px;
-    color: green;
+
+
+/* Default link styling */
+a {
+    color: rgba(116, 64, 100, 0.934);
     text-decoration: none;
+}
+
+a:visited {
+    color: rgba(80, 40, 70, 0.934);
+}
+
+a:hover {
+    color: rgba(255, 251, 254, 0.934);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgba(200, 50, 100, 0.934);
 }
 
