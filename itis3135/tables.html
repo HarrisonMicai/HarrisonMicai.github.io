@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITIS3135 Employee Information || Micai Harrison || Mean Turtle</title>
     <style>
+        body {
+            text-align: center; /* Centers everything */
+            font-family: Arial, sans-serif;
+        }
         table {
             width: 70%;
             border-collapse: collapse;
-            margin-top: 10px;
+            margin: 20px auto; /* Centers the table */
         }
         th, td {
             border: 1px solid black;
-            padding: 8px;
-            text-align: left;
+            padding: 10px;
+            text-align: center; /* Centers text inside cells */
         }
         th {
             background-color: #333;
@@ -28,6 +32,13 @@
         caption {
             font-weight: bold;
             padding: 10px;
+            text-align: center; /* Centers caption */
+        }
+        .table {
+            text-align: center;
+        }
+         li {
+            text-align: left;
         }
     </style>
     <link rel="stylesheet" href="styles/default.css">
@@ -49,7 +60,7 @@
             <li>Mac Miller - mmiller@gmail.com - 21</li>
             <li>Ray Condones - rcondones27@gmail.com - 7</li>
         </ol>
-        <h3>Employee Data in Simple Table</h3>
+        <h3 class="table">Employee Data in Simple Table</h3>
         <table>
             <tr>
                 <th>Name</th>
