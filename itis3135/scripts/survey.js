@@ -21,7 +21,7 @@ document.getElementById('byoForm').addEventListener('submit', function(e) {
       <p>Name: ${document.getElementById('name').value}</p>
       <p>Mascot: ${document.getElementById('mascot').value}</p>
       <img src="${URL.createObjectURL(imageFile)}" alt="${document.getElementById('imageCaption').value}">
-      <p>Caption: ${document.getElementById('imageCaption').value}</p>
+      <p>${document.getElementById('imageCaption').value}</p>
       <p>Personal Background: ${document.getElementById('personalBackground').value}</p>
       <p>Professional Background: ${document.getElementById('professionalBackground').value}</p>
       <p>Academic Background: ${document.getElementById('academicBackground').value}</p>
