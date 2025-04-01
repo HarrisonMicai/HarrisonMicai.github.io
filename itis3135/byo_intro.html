@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS3135 BYO Intro || Micai Harrison || Mean Turtle</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>BYO Intro</h2>
+        <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+        <form id="byoForm" enctype="multipart/form-data">
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+          
+            <label>Mascot:</label>
+            <input type="text" id="mascot" placeholder="Enter your mascot" required><br>
+          
+            <label>Image (PNG or JPG):</label>
+            <input type="file" id="image" accept=".png, .jpg" required><br>
+          
+            <label>Image Caption:</label>
+            <input type="text" id="imageCaption" placeholder="Enter a caption here" required><br>
+          
+            <label>Personal Background:</label>
+            <textarea id="personalBackground" placeholder="Tell us about your personal background" required></textarea><br>
+          
+            <label>Professional Background:</label>
+            <textarea id="professionalBackground" placeholder="Share your professional background" required></textarea><br>
+          
+            <label>Academic Background:</label>
+            <textarea id="academicBackground" placeholder="Outline your academic background" required></textarea><br>
+          
+            <label>Background in Web Development:</label>
+            <textarea id="webDevBackground" placeholder="Describe your web development experience" required></textarea><br>
+          
+            <label>Primary Computer Platform:</label>
+            <input type="text" id="computerPlatform" placeholder="e.g., Windows, Mac, Linux" required><br>
+          
+            <label>Courses Currently Taking:</label>
+            <div id="coursesContainer"></div>
+            <button type="button" id="addCourse">Add Course</button><br>
+          
+            <label>Funny thing?</label>
+            <textarea id="funnyThing" placeholder="Something funny about you"></textarea><br>
+          
+            <label>Anything else?</label>
+            <textarea id="anythingElse" placeholder="Anything else you'd like to share"></textarea><br>
+          
+            <input type="checkbox" id="agreement" required>
+            <label for="agreement">
+              I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
+            </label><br>
+          
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </form>
+    </main>
+        <footer>
+            <div data-include="components/footer.html"></div>
+        </footer>
+        <script>
+            documents.getElementById("validate_link_html").style.display = "none";
+            documents.getElementById("validate_link_css").style.display = "none";
+        </script>
+        <script src="scripts/HTMLInclude.min.js"></script>
+        <script src="Scripts/survey.js"></script>
+</body>
+</html>
