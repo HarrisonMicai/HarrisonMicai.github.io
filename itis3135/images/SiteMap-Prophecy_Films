@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.4">
+  <diagram name="Page-1" id="qAPeE5sw2TMwFU7gf3DL">
+    <mxGraphModel dx="2291" dy="1227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-54" width="297" height="297" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-2" value="Home(index Page)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="-72" width="301" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="-12" width="297" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="-11" width="295" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-5" value="Header Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="46" y="-28" width="150" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-7" value="The header will have 5 nav links to the different pages(Navbar)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="78" y="13" width="195.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-8" value="Has home, about, films, login, and arts page." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="-8" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="53" width="300" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="176" width="299" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-12" value="Footer Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="137" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-13" value="Body/Main Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="46" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-14" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218" y="346" as="sourcePoint" />
+            <mxPoint x="218" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-487" y="408" width="245" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="408" width="245" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="261" y="408" width="245" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="607" y="408" width="245" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-21" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-363" y="349" as="sourcePoint" />
+            <mxPoint x="742" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-568" y="-237" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-26" value="Audience: Members of the Prophecy Film Community that are looking for an outreach community for these projects.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-569.5" y="-155" width="404.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-28" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tTD5Sm3gNRuCopjnzGAM-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-37.5" y="399" as="sourcePoint" />
+            <mxPoint x="-12" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-29" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="383" y="408" as="sourcePoint" />
+            <mxPoint x="383" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-30" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-365.17" y="408" as="sourcePoint" />
+            <mxPoint x="-365.17" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-31" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="732" y="408" as="sourcePoint" />
+            <mxPoint x="732" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-32" value="Footer will have &amp;lt;button&amp;gt; element to the clients Instagram and Youtube. HTML and CSS Validations at the bottom.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="195.5" width="259" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-33" value="Description of what Prophecy Films is. &amp;lt;button&amp;gt;: Learn More, &amp;lt;button&amp;gt;: Sign Up/Join Now" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="68" y="113" width="301" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-34" value="How it works Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="68" y="107" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-36" value="Shows an animated Image of the logo for Prophecy Films. &amp;lt;button&amp;gt;: Enter button that scrolls to &quot;How it Works Section&quot;." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="78" y="76" width="295" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-38" value="About Us(about Page)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="381" width="301" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-39" value="Short Films(films Page)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="381" width="301" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-40" value="Sign Up/Sign in(login Page)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="387" width="301" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-41" value="Mini Series/Arts(series Page)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579" y="381" width="301" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-43" value="Header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-517.25" y="441" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-44" value="Footer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-518" y="596" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-45" value="Footer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-162.5" y="596" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-46" value="Header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="441" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-47" value="Footer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233.5" y="596" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-48" value="Header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="447" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-49" value="Footer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="599" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-50" value="Header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="441" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-254" y="458" as="sourcePoint" />
+            <mxPoint x="-204" y="408" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-52" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="476" as="sourcePoint" />
+            <mxPoint x="202" y="39" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-106" y="451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="462" y="473" as="sourcePoint" />
+            <mxPoint x="514" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-54" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234" y="636" as="sourcePoint" />
+            <mxPoint x="284" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="589" y="466" as="sourcePoint" />
+            <mxPoint x="523" y="81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-60" value="Given history and story of the startup of Prophecy Films. &amp;lt;p&amp;gt;: Paragraph giving the message of Prophecy Films as a company." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520.5" y="502" width="305" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-61" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Where categories of films are laid out. There will be a filter button/toggler which makes it easier to categorize titles. The movies are clickable links that link to the video file.&lt;/div&gt;&lt;div&gt;Will be made in &amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="503" width="305" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-62" value="Login &amp;lt;form&amp;gt;&amp;lt;/form&amp;gt; on this page to sign up or login to existing account. After signing up or logging in it leads back to the home page.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="507" width="305" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-63" value="Community outreach page where users can upload their art. Client will also upload progression of work such as updates. Message board page of website for engagement. Usage: &amp;lt;form&amp;gt;&amp;lt;/form&amp;gt;, &amp;lt;input&amp;gt; &amp;lt;button&amp;gt;, &amp;lt;textarea&amp;gt; &amp;lt;ul&amp;gt;, &amp;lt;li&amp;gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="577" y="502" width="305" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-59" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.069;entryY=0.885;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-218" y="629" as="sourcePoint" />
+            <mxPoint x="-284" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-56" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="126" y="636" as="sourcePoint" />
+            <mxPoint x="60" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-58" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="tTD5Sm3gNRuCopjnzGAM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="589" y="643" as="sourcePoint" />
+            <mxPoint x="523" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-64" value="Main/Body Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="507" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-65" value="Main/Body Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="496" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-66" value="Main/Body Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="234" y="503" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTD5Sm3gNRuCopjnzGAM-68" value="Main/Body Section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="572" y="496" width="139" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
