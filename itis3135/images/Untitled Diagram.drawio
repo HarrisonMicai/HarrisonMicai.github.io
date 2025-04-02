@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="f1b7ffb7-ca1e-a977-7cf5-a751b3c06c05">
+    <mxGraphModel dx="1720" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-72" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="560" width="420" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="50" width="780" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="Prophecy Films " style="text;spacingTop=-5;fontSize=18;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="70" y="30" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="line;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="60" width="780" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="line;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="90" width="780" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Home" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="60" y="70.00000000000009" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="15" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Blog &#xa;Logo" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="560" width="360" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="Video/Photo" style="text;spacingTop=-5;align=center;verticalAlign=middle;fontSize=36;fontColor=#CCCCCC" parent="1" vertex="1">
+          <mxGeometry x="420" y="620" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-62" value="Short Films" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="65" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-63" value="Mini-Series" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="65" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-64" value="Join link page/button" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-68" value="About us(Drop down menu)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="65" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-70" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Experience the Magic of Short Films&lt;/h1&gt;&lt;div&gt;&lt;p data-blocks-payload-v1=&quot;{&amp;quot;type&amp;quot;:&amp;quot;element&amp;quot;,&amp;quot;state&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;e5436d88-4ce8-495b-8438-121de3f3b5aa&amp;quot;,&amp;quot;source&amp;quot;:{&amp;quot;slug&amp;quot;:&amp;quot;section_header102&amp;quot;,&amp;quot;rootName&amp;quot;:&amp;quot;paragraph&amp;quot;},&amp;quot;textOverrides&amp;quot;:{&amp;quot;~61a9234a-2511-e30a-103a-7bba963d8f46&amp;quot;:&amp;quot;At Prophecy Films, we bring captivating stories to life through our unique short films and mini-series. Join us on a journey of creativity and inspiration.&amp;quot;,&amp;quot;map&amp;quot;:1},&amp;quot;commentThreads&amp;quot;:{&amp;quot;map&amp;quot;:1},&amp;quot;slotOverrides&amp;quot;:{&amp;quot;map&amp;quot;:1}}}&quot;&gt;At Prophecy Films, we bring captivating stories to life through our unique short films and mini-series. Join us on a journey of creativity and inspiration.&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="13" y="595" width="400" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-73" value="Join(button)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-74" value="widespread photo of Logo will be here. The entire page is to be covered with a banner." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="255" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-75" value="Enter Button that will scroll down to article below" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Z5a5zLu6L2U7PuWHA1YE-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-77" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="990" width="780" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="890" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-80" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Our Latest Projects&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="890" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-81" value="Arrows &amp;lt;=&amp;nbsp; =&amp;gt;&lt;div&gt;(both are for scroll feature of the three video/picture options)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-83" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.002;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z5a5zLu6L2U7PuWHA1YE-77" target="Z5a5zLu6L2U7PuWHA1YE-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1110" as="sourcePoint" />
+            <mxPoint x="590" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-84" value="&lt;b&gt;Footer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-85" value="HTML and CSS Validators" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="48" y="1140" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-86" value="&amp;nbsp;logo buttons that link to instagram, youtube of Prophecy Films" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-87" value="Prophecy Film Logo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-88" value="Address:&lt;div&gt;Contact:&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1060" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-89" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Z5a5zLu6L2U7PuWHA1YE-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="830" as="sourcePoint" />
+            <mxPoint x="370" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-90" value="Learn More(button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="820" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-91" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.374;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Z5a5zLu6L2U7PuWHA1YE-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="830" as="sourcePoint" />
+            <mxPoint x="290" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-92" value="Has a contact Page,&amp;nbsp; Mission Page in dropdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-93" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.505;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.422;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z5a5zLu6L2U7PuWHA1YE-68" target="Z5a5zLu6L2U7PuWHA1YE-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="70" as="sourcePoint" />
+            <mxPoint x="390" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-94" value="Goes to mission page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-98" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z5a5zLu6L2U7PuWHA1YE-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="900" as="sourcePoint" />
+            <mxPoint x="230" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5a5zLu6L2U7PuWHA1YE-99" value="2025 Prophecy Films. All rights reserved" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
