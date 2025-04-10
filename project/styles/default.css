@@ -84,6 +84,11 @@ img {
     cursor: pointer;
     font-weight: bold;
   }
+
+  button a {
+    color: white;
+    text-decoration: none;
+  }
   
   button:hover {
     background-color: #e67e22;
