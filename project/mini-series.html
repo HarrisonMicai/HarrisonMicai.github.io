@@ -1,0 +1,39 @@
+<!-- Series/Arts Page (series.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Series & Art | Prophecy Films</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div data-include="components/header.html"></div>
+  </header>
+  <main>
+    <h1>Mini-Series and Arts</h1>
+    <p>This community space allows users to upload their art and share progress updates.</p>
+    <form>
+      <label for="title">Post Title:</label><br>
+      <input type="text" id="title" name="title"><br>
+      <label for="content">Share your work:</label><br>
+      <textarea id="content" name="content"></textarea><br>
+      <button type="submit">Post</button>
+    </form>
+    <ul>
+      <li>User post 1: Artwork update...</li>
+      <li>User post 2: New episode released...</li>
+    </ul>
+  </main>
+  <footer>
+    <div data-include="components/footer.html"></div>
+  </footer>
+  <script>
+    documents.getElementById("validate_link_html").style.display = "none";
+    documents.getElementById("validate_link_css").style.display = "none";
+</script>
+<script src="scripts/HTMLInclude.min.js"></script>
+<script src="scripts/prophecy.js"></script>
+</body>
+</html>

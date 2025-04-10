@@ -1,0 +1,118 @@
+<!-- Home Page (index.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prophecy Films</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    /* Banner Section */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+
+footer {
+    position: relative;
+    width: 100%;
+}
+#banner {
+  background-image: url('/project/images/prophecy-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  height: 15vh; /* Full viewport height */
+  width: 90vh; /* Dynamically adjust banner height */
+}
+
+#banner img {
+  display: none; /* Hide the duplicated image if background covers it */
+}
+
+#banner button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  background-color: #f39c12;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+#banner button:hover {
+  background-color: #f39c12;
+}
+
+/* Hide content initially */
+#how-it-works,
+#latest-projects {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Show it after Enter */
+.revealed {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+</style>
+<body>
+  <header>
+    <nav>
+        <div data-include="components/header.html"></div>
+  </header>
+  <main>
+    <section id="banner">
+      <img src="/project/images/prophecy-banner.jpg" alt="Prophecy Films Banner">
+      <button onclick="document.getElementById('how-it-works').scrollIntoView();">Enter</button>
+    </section>
+    <section id="how-it-works">
+      <h2>Experience the Magic of Short Films</h2>
+      <p>At Prophecy Films, we bring captivating stories to life through our unique short films and mini-series. Join us on a journey of creativity and inspiration.</p>
+      <a href="mission.html"><button>Learn More</button></a>
+      <a href="login.html"><button>Join Now</button></a>
+    </section>
+    <section id="latest-projects">
+      <h3>Our Latest Projects</h3>
+      <div class="carousel">
+        <button>&lt;</button>
+        <div class="videos">
+          <!-- Add video/image thumbnails here -->
+        </div>
+        <button>&gt;</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div data-include="components/footer.html"></div>
+  </footer>
+  <script>
+    documents.getElementById("validate_link_html").style.display = "none";
+    documents.getElementById("validate_link_css").style.display = "none";
+</script>
+<script src="scripts/HTMLInclude.min.js"></script>
+<script src="scripts/prophecy.js"></script>
+<script src="scripts/banner.js"></script>
+</body>
+</html>

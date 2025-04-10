@@ -1,0 +1,126 @@
+<!-- Login Page (login.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join Prophecy Films</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+           /* Signup Form */
+
+    .signup-container {
+      background-color: #222;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .signup-container h2 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #f39c12;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      margin-bottom: 0.3rem;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: white;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      margin-top: 1.5rem;
+      padding: 0.9rem;
+      background-color: #f39c12;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #f39c12;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .login-link a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+    </style>
+  <header>
+    <div data-include="components/header.html"></div>
+</header>
+
+<main>
+    <div class="signup-container">
+      <h2>Join Prophecy Films</h2>
+      <form id="signup-form" action="/register" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+  
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+  
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+  
+        <input type="submit" value="Sign Up">
+      </form>
+      <div class="login-link">
+        Already have an account? <a href="login.html">Login here</a>
+      </div>
+    </div>
+  
+    <script>
+      document.getElementById("signup-form").addEventListener("submit", function(event) {
+        const password = document.getElementById("password").value;
+        const confirm = document.getElementById("confirm-password").value;
+        if (password !== confirm) {
+          alert("Passwords do not match.");
+          event.preventDefault();
+        }
+      });
+    </script>
+    </main>
+  <footer>
+    <div data-include="components/footer.html"></div>
+  </footer>
+  <script>
+    documents.getElementById("validate_link_html").style.display = "none";
+    documents.getElementById("validate_link_css").style.display = "none";
+</script>
+<script src="scripts/HTMLInclude.min.js"></script>
+<script src="scripts/prophecy.js"></script>
+</body>
+</html>
