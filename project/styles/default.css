@@ -34,6 +34,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-block-end: 2rem;
+    position: relative;
+    width: 100%;
   }
 
    /* Logo */
@@ -76,7 +78,7 @@ img {
   }
   
   button {
-    padding: 0.7rem 1.2rem;
+    padding: 0.7rem 1.2em;
     margin: 1rem;
     background-color: #f39c12;
     border: none;
@@ -86,7 +88,16 @@ img {
     font-weight: bold;
   }
 
-  button a {
+  a.button  {
+    padding: 0.3rem 1.2rem;
+    margin: 1rem;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f39c12;
     color: white;
     text-decoration: none;
   }
