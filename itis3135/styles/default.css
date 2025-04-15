@@ -87,3 +87,107 @@ p {
         width: 100%;
     }
 }
+
+/* SlideShow Styles */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Default Styles */
+
+/* Slideshow Container */
+.container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Hide images initially */
+.mySlides {
+    display: none;
+}
+
+.numbertext {
+    color: purple;
+    font-size: 45px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Images */
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Navigation Buttons */
+.prevnext {
+    cursor: pointer;
+    inset-block-start: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    position: center;
+}
+
+.prevnext:hover {
+    background-color: green;
+    color: black;
+}
+
+/* Caption Container */
+.caption-container {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+/* Thumbnail Row */
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.column {
+    flex: 1;
+    max-width: 80px;
+    padding: 5px;
+}
+
+/* Thumbnail Images */
+.demo {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.demo:hover {
+    border-color: #ff5733;
+}
+
+/* Active Thumbnail */
+.active {
+    border-color: #ff5733;
+}
+
+/* Smooth fade-in effect */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}

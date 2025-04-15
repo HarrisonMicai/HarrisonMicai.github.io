@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS3135 SlideShow || Micai Harrison || Mean Turtle</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>My Slideshow</h2>
+        <p>Click on the images below to view them in a slideshow format.</p>
+    <!-- Container for the image gallery -->
+<div class="container">
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">M</div>
+        <img src="images/mangoM.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">I</div>
+        <img src="images/Illustration.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">C</div>
+        <img src="images/Chicken.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">A</div>
+        <img src="images/America.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">I</div>
+        <img src="images/IronMan.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">H</div>
+        <img src="images/Hair.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">A</div>
+          <img src="images/AT.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">R</div>
+          <img src="images/Rap.jpeg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">R</div>
+          <img src="images/Raf.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">I</div>
+          <img src="images/IacimNossirah.jpeg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">S</div>
+          <img src="images/Scoob.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">O</div>
+          <img src="hobby/images/oda.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">N</div>
+          <img src="images/num9.webp" style="width:100%">
+      </div>
+    <!-- Next and previous buttons -->
+     <div class="prevnext">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="images/mangoM.jpg" style="width:100%" onclick="currentSlide(1)" alt="Mango Man">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Illustration.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Illustration">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Chicken.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Chicken">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/America.jpeg" style="width:100%" onclick="currentSlide(4)" alt="American Flag">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/IronMan.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Iron Man">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Hair.jpeg" style="width:100%" onclick="currentSlide(7)" alt="Hair">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/AT.jpeg" style="width:100%" onclick="currentSlide(8)" alt="Adventure Time">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Rap.jpeg" style="width:100%" onclick="currentSlide(9)" alt="Rap">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Raf.jpeg" style="width:100%" onclick="currentSlide(10)" alt="Raf Simons">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/IacimNossirah.jpeg" style="width:100%" onclick="currentSlide(11)" alt="Iacim Nossirah">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Scoob.jpeg" style="width:100%" onclick="currentSlide(12)" alt="Scooby Doo">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="hobby/images/oda.jpg" style="width:100%" onclick="currentSlide(13)" alt="Oda">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/num9.webp" style="width:100%" onclick="currentSlide(14)" alt="Number Nine">
+      </div>
+    </div>
+  </div>
+    <div>
+        <ul>
+            <li><strong>Help:</strong>
+                <li>W3schools</li>
+                <li>ChatGPT</li>
+        </li>
+            <li><strong>Struggles:</strong>
+                <li>Getting the slideshow to work</li>
+                <li>Finding the right images</li>
+            </li>
+            <li>This is my work and I did not copy and paste someone else's code</li>
+            <li><strong>Micai Harrison 04/14/2025</strong></li>
+        </ul>
+    </div>
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script>
+        documents.getElementById("validate_link_html").style.display = "none";
+        documents.getElementById("validate_link_css").style.display = "none";
+    </script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <script src="scripts/slideshow.js"></script>
+</body>
+</html>
