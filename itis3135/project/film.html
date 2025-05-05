@@ -21,17 +21,41 @@
   </header>
   <main>
     <h1>Our Short Films</h1>
-    <ul>
-      <li><button>Drama</button></li>
-      <li><button>Faith</button></li>
-      <li><button>Action</button></li>
-    </ul>
-    <ul>
-      <li><a href="videos/film1.mp4">Film Title 1</a></li>
-      <li><a href="videos/film2.mp4">Film Title 2</a></li>
-      <li><a href="videos/film3.mp4">Film Title 3</a></li>
-    </ul>
+    
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <iframe src="https://www.youtube.com/embed/EWQMWSTNddU" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <p class="caption">Shawl</p>
+      </div>
+    
+      <div class="slide fade">
+        <iframe src="https://www.youtube.com/embed/4n3vGB-nhak" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <p class="caption">Dear Diary</p>
+      </div>
+    
+      <div class="slide fade">
+        <iframe src="https://www.youtube.com/embed/hlOzP3tHy04" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <p class="caption">Knock!</p>
+      </div>
+    
+      <a class="prev" onclick="changeSlide(-1)">❮</a>
+      <a class="next" onclick="changeSlide(1)">❯</a>
+    </div>
+  
+    <!-- Dots (optional for navigation) -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
   </main>
+  
   <footer>
     <div data-include="components/footer.html"></div>
   </footer>
@@ -41,5 +65,6 @@
 </script>
 <script src="scripts/HTMLInclude.min.js"></script>
 <script src="scripts/prophecy.js"></script>
+<script src="scripts/slideshow.js"></script>
 </body>
 </html>
