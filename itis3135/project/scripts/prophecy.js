@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const enterBtn = document.querySelector('#enterBtn');
+  const enterBtn = document.querySelector('#enterbtn');
   const howItWorks = document.querySelector('#how-it-works');
   const latestProjects = document.querySelector('#latest-projects');
 

@@ -15,41 +15,53 @@
       margin: 0;
     }
   </style>
+
   <header>
     <div data-include="components/header.html"></div>
   </header>
+
   <main>
     <h1>Mini-Series and Arts</h1>
     <p>This community space allows users to upload their art and share progress updates.</p>
 
+    <!-- Post submission form -->
     <form id="postForm">
-      <label for="title">Post Title:</label><br>
-      <input type="text" id="title" name="title"><br>
-      <label for="content">Share your work:</label><br>
-      <textarea id="content" name="content"></textarea><br>
-      <button type="submit">Post</button>
+      <fieldset>
+        <legend>Share a New Post</legend>
+
+        <label for="title">Post Title:</label><br>
+        <input type="text" id="title" name="title" required><br>
+
+        <label for="content">Share your work:</label><br>
+        <textarea id="content" name="content" rows="4" required></textarea><br>
+
+        <button type="submit">Post</button>
+      </fieldset>
     </form>
 
-    <h2>Recent Posts</h2>
+    <!-- Recent posts and search -->
+    <section>
+      <h2>Recent Posts</h2>
 
-    <!-- Search bar to filter posts -->
-    <input type="text" id="searchBar" placeholder="Search posts..." oninput="searchPosts()">
+      <input type="text" id="searchBar" placeholder="Search posts..." oninput="searchPosts()">
 
-    <ul id="postList">
-      <!-- Posts will be dynamically inserted here -->
-    </ul>
+      <ul id="postList">
+        <!-- Posts will be dynamically inserted here -->
+      </ul>
+    </section>
   </main>
+
   <footer>
     <div data-include="components/footer.html"></div>
   </footer>
 
-  <!-- Include the external JS file -->
+  <!-- JavaScript includes -->
   <script src="scripts/main.js"></script>
-
   <script src="scripts/HTMLInclude.min.js"></script>
   <script src="scripts/prophecy.js"></script>
 </body>
 </html>
+
 
 
 

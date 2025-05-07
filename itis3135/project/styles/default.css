@@ -28,18 +28,21 @@ header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #1e1e1e;
   color: #fff;
-  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin-block-end: 2rem;
   position: relative;
-  
+  box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
   border-radius: 15px;
   /* Neumorphism effect for header with inner shadow */
   box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), inset -4px -4px 8px rgba(255, 255, 255, 0.4);
 }
+ 
+
 
 /* Logo */
 figure {
@@ -134,14 +137,13 @@ footer div {
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 2rem auto;
 }
 
 .carousel-track {
   display: flex;
-  transition: transform 0.5s ease;
-  width: 100%;
+  transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
@@ -151,28 +153,50 @@ footer div {
   text-align: center;
 }
 
+.carousel img {
+  width: 50%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: rgba(0,0,0,0.5);
   border: none;
+  color: white;
   font-size: 2rem;
+  padding: 0.5rem 1rem;
   cursor: pointer;
   z-index: 1;
 }
 
-.carousel-button .left {
+.carousel-button .left{
   left: 10px;
 }
 
-.carousel-button .right {
+.carousel-button.right{
   right: 10px;
 }
 
+
+
+/* Latest Projects Section */
+#latest-projects {
+  font-color: white;
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  background-color: #222; /* Fallback color */
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
 #latest-projects a p {
-  color: black;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
@@ -212,9 +236,64 @@ footer div {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  margin-top: -22px;
-  color: #f39
+  transform: translateY(-50%);
+  padding: 16px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  user-select: none;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f39c12;;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+#how-it-works {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  
+}
+
+#how-it-works a {
+  padding: 0.7rem 1.2em;
+  margin: 1rem;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.4);
 }
 
 
