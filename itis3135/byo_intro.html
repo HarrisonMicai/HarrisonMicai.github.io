@@ -13,62 +13,70 @@
     </header>
     <main>
         <h2>BYO Intro</h2>
-        <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+        <h3>Time to BYO Intro page — please fill out the form below so we can create your own page.</h3>
+
         <form id="byoForm" enctype="multipart/form-data">
-            <label>Name:</label>
-            <input type="text" id="name" placeholder="Enter your name" required><br>
-          
-            <label>Mascot:</label>
-            <input type="text" id="mascot" placeholder="Enter your mascot" required><br>
-          
-            <label>Image (PNG or JPG):</label>
-            <input type="file" id="image" accept=".png, .jpg" required><br>
-          
-            <label>Image Caption:</label>
-            <input type="text" id="imageCaption" placeholder="Enter a caption here" required><br>
-          
-            <label>Personal Background:</label>
-            <textarea id="personalBackground" placeholder="Tell us about your personal background" required></textarea><br>
-          
-            <label>Professional Background:</label>
-            <textarea id="professionalBackground" placeholder="Share your professional background" required></textarea><br>
-          
-            <label>Academic Background:</label>
-            <textarea id="academicBackground" placeholder="Outline your academic background" required></textarea><br>
-          
-            <label>Background in Web Development:</label>
-            <textarea id="webDevBackground" placeholder="Describe your web development experience" required></textarea><br>
-          
-            <label>Primary Computer Platform:</label>
-            <input type="text" id="computerPlatform" placeholder="e.g., Windows, Mac, Linux" required><br>
-          
-            <label>Courses Currently Taking:</label>
+            <label for="name"><b>Name:</b></label><br>
+            <input type="text" id="name" required placeholder="Enter your name"><br><br>
+
+            <label for="mascot"><b>Mascot:</b></label><br>
+            <input type="text" id="mascot" required placeholder="Enter your mascot"><br><br>
+
+            <label for="image"><b>Image (PNG or JPG):</b></label><br>
+            <input type="file" id="image" accept=".png, .jpg" required><br><br>
+
+            <label for="imageCaption"><b>Image Caption:</b></label><br>
+            <input type="text" id="imageCaption" required placeholder="Enter a caption"><br><br>
+
+            <label for="personalBackground"><b>Personal Background:</b></label><br>
+            <textarea id="personalBackground" required placeholder="Tell us about your personal background"></textarea><br><br>
+
+            <label for="professionalBackground"><b>Professional Background:</b></label><br>
+            <textarea id="professionalBackground" required placeholder="Share your professional background"></textarea><br><br>
+
+            <label for="academicBackground"><b>Academic Background:</b></label><br>
+            <textarea id="academicBackground" required placeholder="Outline your academic background"></textarea><br><br>
+
+            <label for="webDevBackground"><b>Background in Web Development:</b></label><br>
+            <textarea id="webDevBackground" required placeholder="Describe your web development experience"></textarea><br><br>
+
+            <label for="computerPlatform"><b>Primary Computer Platform:</b></label><br>
+            <input type="text" id="computerPlatform" required placeholder="e.g., Windows, Mac, Linux"><br><br>
+
+            <label><b>Courses Currently Taking:</b></label>
             <div id="coursesContainer"></div>
-            <button type="button" id="addCourse">Add Course</button><br>
-          
-            <label>Funny thing?</label>
-            <textarea id="funnyThing" placeholder="Something funny about you"></textarea><br>
-          
-            <label>Anything else?</label>
-            <textarea id="anythingElse" placeholder="Anything else you'd like to share"></textarea><br>
-          
+            <button type="button" id="addCourse">Add Course</button><br><br>
+
+            <label for="funnyThing"><b>Funny Thing?</b></label><br>
+            <textarea id="funnyThing" placeholder="Something funny about you"></textarea><br><br>
+
+            <label for="anythingElse"><b>Anything Else?</b></label><br>
+            <textarea id="anythingElse" placeholder="Anything else you'd like to share"></textarea><br><br>
+
             <input type="checkbox" id="agreement" required>
             <label for="agreement">
-              I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
-            </label><br>
-          
+                I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
+            </label><br><br>
+
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
-          </form>
+        </form>
     </main>
-        <footer>
-            <div data-include="components/footer.html"></div>
-        </footer>
-        <script>
-            document.getElementById("validate_link_html").style.display = "none";
-            document.getElementById("validate_link_css").style.display = "none";
-        </script>
-        <script src="scripts/HTMLInclude.min.js"></script>
-        <script src="scripts/survey.js"></script>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <script src="scripts/survey.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hideLinks = ["validate_link_html", "validate_link_css"];
+            hideLinks.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.style.display = "none";
+            });
+        });
+    </script>
 </body>
 </html>
+
