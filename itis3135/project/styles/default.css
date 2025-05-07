@@ -5,6 +5,7 @@
 /* General Reset */
 main {
   flex: 1;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.4);
 }
 
 body {
